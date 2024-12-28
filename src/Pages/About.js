@@ -3,8 +3,7 @@ import { Container, Tab, Nav, Row, Col } from "react-bootstrap";
 
 const About = () => {
   return (
-     <>
-         <Container>
+     <Container>
            <Tab.Container id="ledt-tabs-exemle" defaultActiveKey="first">
               <Row>
                  <Col sm={3}>
@@ -52,8 +51,7 @@ const About = () => {
                  </Col>
               </Row>
            </Tab.Container>
-        </Container>      
-     </>
+        </Container>
   )
 }
 
